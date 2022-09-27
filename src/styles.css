@@ -3,8 +3,10 @@
 /* Variables */
 
 :root {
+    --color-main: #191c22;
     --color-primary: #30475E;
     --color-secondary: #252a35;
+    --color-tertiary: #1f232b;
     
     --color-alert: #f05454;
     --color-alert-light: #d46666;   
@@ -13,12 +15,10 @@
     --color-info-light: #4b6cb7;
 
     --color-danger: #f59e0b;
-    --color-danger-light: #d97706;
+    --color-danger-light: #f7a549;
 
     --color-success: #10b981;
     --color-success-light: #059669;
-
-    --color-main: #191c22;
 
     --font-color-heading: #fff;   
     --font-color-text: #DDDDDD;
@@ -302,18 +302,6 @@ section > .content {
     margin-bottom: 0.1rem;
 }
 
-tbody {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    gap: 0.5rem;
-}
-
-tbody > tr {
-    width: 100%;
-}
-
 #page-second-header {
     padding-left: 0!important;
 }
@@ -469,7 +457,7 @@ tbody > tr {
     gap: 0.5rem;
 }
 
-.calendartable thead {
+.calendartable > thead {
     width: 100%;
     background-color: var(--color-primary);
     color: #DDDDDD;
@@ -481,14 +469,14 @@ tbody > tr {
     align-items: center;
 }
 
-.calendartable thead > tr {
+.calendartable  tr {
     width: 100%;    
     display: flex;
     justify-content: space-between; 
     align-items: center;    
 }
 
-.calendartable tbody {
+.calendartable > tbody {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -567,9 +555,11 @@ tbody > tr {
     margin: 0!important;
 }
 
-.content .summary font {
+.content .summary font,
+.content .summary b {
     color: var(--font-color-heading)!important; 
-    font-size: 1.5rem;
+    background-color: transparent!important;
+    font-size: 1.5rem!important;
 }
 
 
@@ -745,6 +735,12 @@ button, abbr {
     color: var(--font-color-text)!important;
 }
 
+.highlight {
+    background-color: var(--color-danger-light);
+    border-radius: 10px;
+    padding: 0.5rem;        
+}
+
 /* 
     Dashboard
  */
@@ -792,4 +788,58 @@ button, abbr {
 
 .coursemenubtn .fa:hover{
     background-color: var(--color-main)!important;
+}
+
+
+/* 
+    tables
+*/
+
+table * {
+    border: 0!important;
+    border-radius: 10px!important;
+}
+
+table caption {
+    color: var(--font-color-text);
+    font-weight: 800;
+}
+
+thead {
+    background-color: var(--color-main);
+    border-radius: 10px 10px 0 0;
+}
+
+table th {
+    color: var(--font-color-text);
+    font-weight: 600;
+}
+
+table tr {
+    border: 0!important;
+    padding: 0.5rem!important;
+    overflow: hidden;
+}
+
+table td {
+    padding: 0;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: var(--color-secondary);
+}       
+
+table tbody tr:nth-child(even) {
+    background-color: var(--color-tertiary);
+}
+
+
+/* footer */
+footer {
+    border-radius: 10px 10px 0 0;
+    padding: 0.5rem;
+}
+
+#page-footer {
+    background-color: var(--color-main);
 }
