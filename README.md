@@ -28,4 +28,8 @@ If you have any issues, please create an issue on the [issues](https://github.co
 Trough email: [git@grzegorz.ie](mailto:git@grzegorz.ie)
 
 ## Screenshots
+![Screenshot from 2022-09-27 21-58-34](https://user-images.githubusercontent.com/83783716/192634392-87669c96-485f-40cd-8b7e-c550dfa00799.png)
+![Screenshot from 2022-09-27 21-58-55](https://user-images.githubusercontent.com/83783716/192634400-4e0f4be0-2998-4e9b-80d8-3c74378eb0a8.png)
+![Screenshot from 2022-09-27 21-59-35](https://user-images.githubusercontent.com/83783716/192634402-a5d8ddd7-60b8-4cb8-872d-f140476bef01.png)
+![Screenshot from 2022-09-25 20-28-30](https://user-images.githubusercontent.com/83783716/192634487-4dc88950-5967-4e82-812b-cb7ed3134e04.png)
 
