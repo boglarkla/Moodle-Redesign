@@ -1,0 +1,34 @@
+{
+    "manifest_version": 2,
+    "name": "TUD Tallaght Reskin",
+    "version": "1.0",
+  
+    "description": "TUD Tallaght Moodle Reskin",       
+  
+    "icons": {
+      "48": "icons/icon.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://elearning-ta.tudublin.ie/*"],
+        "js": ["dist/bundle.js"]
+      }
+    ],
+
+    "permissions": [
+      "activeTab",
+      "storage",
+      "tabs",
+      "webRequest",
+      "webRequestBlocking",
+      "https://elearning-ta.tudublin.ie/*"
+    ],
+
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "git@grzegorz.ie"
+      }
+    }
+}
+  
