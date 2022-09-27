@@ -22,7 +22,11 @@
       "tabs",
       "webRequest",
       "webRequestBlocking",
-      "https://elearning-ta.tudublin.ie/*"
+      "*://elearning-ta.tudublin.ie/*",
+      "*://api.github.com/*",
+      "*://github.com/*",
+      "*://raw.githubusercontent.com/*",
+      "contextMenus"
     ],
 
     "browser_specific_settings": {
