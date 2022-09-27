@@ -9,7 +9,7 @@ Updates will be applied automatically as its just a CSS file, so you don't have 
 
 1. Download the zip file from the [releases](https://github.com/GrzegorzManiak/TUD-Moodle-Reskin/releases/tag/init) page.
 
-2: Chrome users: Go to `chrome://extensions/`, In the top right corner click on `Developer mode`, then click on `Load unpacked extension...` and select the folder you downloaded the zip file to.  
+2: Chrome users: Go to `chrome://extensions/`, In the top right corner click on `Developer mode`, then click on `Load unpacked extension...` and select the folder you unzipped the file in.  
 
 2: Firefox users: Go to `about:debugging#/runtime/this-firefox` and click `Load Temporary Add-on...` and select the zip file.
 
@@ -21,4 +21,11 @@ Updates will be applied automatically as its just a CSS file, so you don't have 
 
 3. Go to your moodle page and enjoy the new look.
 
+## Issues
+
+If you have any issues, please create an issue on the [issues](https://github.com/GrzegorzManiak/TUD-Moodle-Reskin/issues).
+
+Trough email: [git@grzegorz.ie](mailto:git@grzegorz.ie)
+
 ## Screenshots
+
