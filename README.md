@@ -1,6 +1,10 @@
 # TUD-Moodle-Reskin
 Moodle reskin for the Technical University of Dublin Tallaght Campus, the original theme was created by [Moodle](https://moodle.org/), and looked horrible, so I decided to make it look better.
 
+## Updates
+
+Updates will be applied automatically as its just a CSS file, so you don't have to worry about updating it (Unless features are asked for).
+
 ## Installation
 
 1. Download the zip file from the [releases](https://github.com/GrzegorzManiak/TUD-Moodle-Reskin/releases/tag/init) page.
