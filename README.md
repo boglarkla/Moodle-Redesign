@@ -5,7 +5,7 @@ Moodle reskin for the Technical University of Dublin Tallaght Campus, the origin
 
 Updates will be applied automatically as its just a CSS file, so you don't have to worry about updating it (Unless features are asked for).
 
-## Installation
+## Installation (Addon)
 
 1. Download the zip file from the [releases](https://github.com/GrzegorzManiak/TUD-Moodle-Reskin/releases/tag/init) page.
 
@@ -20,6 +20,16 @@ Updates will be applied automatically as its just a CSS file, so you don't have 
 2: Opera users: Go to `opera://extensions/` and click `Load unpacked extension...` and select the folder you downloaded the zip file to.
 
 3. Go to your moodle page and enjoy the new look.
+
+
+## Installation (Tampermonkey)
+1: Install [Tampermonkey](https://tampermonkey.net/).
+
+2: Click [here](https://github.com/GrzegorzManiak/TUD-Moodle-Reskin/releases) and scroll down
+to the latest Tampermonkey script release and donwload the 'tampermonkey.user.js' file.
+
+3: Go to your moodle page and enjoy the new look.
+
 
 ## Issues
 
