@@ -1,4 +1,5 @@
 #userprofiletabs {
+    width: 95%!important;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -31,17 +32,11 @@
     border: 0!important;
 }
 
-#adaptable-tab-coursedetails dt {
-    color: var(--font-color-heading)!important; 
-    size: var(--font-color-heading)!important;
-}
-
 #adaptable_profile_tree {
     width: 100%;
     border: 0;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -51,7 +46,7 @@
 }
 
 #adaptable_profile_tree > :first-child section {
-    padding: 00.5rem!important;
+    padding: 0.5rem!important;
     height: fit-content;
 }
 
@@ -60,13 +55,27 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-
     gap: 0.5rem;
+}
+
+#adaptable_profile_tree > :first-child section > ul > li {
+    height: 100%!important;
+}
+
+/*  No need to display a button that allows you
+to message your self */
+#adaptable-message-user-button {
+    display: none;
+}
+
+#adaptable_profile_tree .col-md-4 { 
+    max-width: 32%!important;
 }
 
 #adaptable_profile_tree > :first-child,
 #adaptable_profile_tree > :last-child {
     width: 90%!important;
+    height: fit-content!important;
     margin: 0;
     padding: 0.5rem;
     list-style: none;
@@ -94,13 +103,6 @@
     padding: 0!important;
 }
 
-
-#adaptable_profile_tree .row {
-    margin: 0!important;
-}
-
-
-/* Profile */
 #adaptable_profile_tree > :first-child {
     height: 100%;
 }
@@ -110,17 +112,19 @@
     flex: none;
 }
 
+#adaptable_profile_tree section,
+#adaptable_profile_tree .row {
+    margin: 0!important
+}
+
+
+/* 
+    Profile picture
+*/
 #adaptable_profile_tree .ucol1 .adaptableuserpicture {
     padding: 0!important;
 }
 
-#adaptable_profile_tree section {
-    margin: 0!important
-}
-
-.row {
-    margin: 0!important;
-}
 
 #adaptable_profile_tree .ucol1 .adaptableuserpicture a {
     width: 50%;
@@ -143,35 +147,24 @@
     top: 0!important;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* Variables */
 
-:root {
-    --color-main: #191c22;
-    --color-primary: #30475E;
-    --color-secondary: #252a35;
-    --color-tertiary: #1f232b;
-    
-    --color-alert: #f05454;
-    --color-alert-light: #d46666;   
+/*
+    About me
+    Courses
+    More
+    Edit profile
+*/
 
-    --color-info: #3b82f6;
-    --color-info-light: #4b6cb7;
+#userprofiletabs dt {
+    color: var(--font-color-heading)!important; 
+    font-size: var(--font-size-heading)!important;
+}
 
-    --color-danger: #f59e0b;
-    --color-danger-light: #f7a549;
+#userprofiletabs > div {
+    padding: 1rem!important;
+}
 
-    --color-success: #10b981;
-    --color-success-light: #059669;
-
-    --font-color-heading: #fff;   
-    --font-color-text: #DDDDDD;
-    --font-color-link: rgb(218, 241, 255);
-
-    --font-size-heading: 1.5rem;
-    
-    --image-radius: 0.5rem;
-    --border-radius: 10px;
-    --transition: 0.2s ease-in-out;
+#userprofiletabs > div > div > div {
+    padding: 0!important;
 }

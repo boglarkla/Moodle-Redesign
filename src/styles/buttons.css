@@ -1,7 +1,7 @@
 #adaptable-message-user-button {
-    background-color: var(--color-info);
-    border-radius: var(--border-radius);
-    padding: var(--btn-padding);
+    background-color: var(--color-info)!important;
+    border-radius: var(--border-radius)!important;
+    padding: var(--btn-padding)!important;
 
     transition: 
         background-color var(--transition),
