@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Variables */
+
+:root {
+    --color-main: #191c22;
+    --color-primary: #30475E;
+    --color-secondary: #252a35;
+    --color-tertiary: #1f232b;
+    
+    --color-alert: #f05454;
+    --color-alert-light: #d46666;   
+
+    --color-info: #3b82f6;
+    --color-info-light: #4b6cb7;
+
+    --color-danger: #f59e0b;
+    --color-danger-light: #f7a549;
+
+    --color-success: #10b981;
+    --color-success-light: #059669;
+
+    --font-color-heading: #fff;   
+    --font-color-text: #DDDDDD;
+    --font-color-link: rgb(218, 241, 255);
+
+    --font-size-heading: 1.5rem;
+    
+    --image-radius: 0.5rem;
+    --border-radius: 10px;
+    --transition: 0.2s ease-in-out;
+    --btn-padding: 0.5rem;
+}

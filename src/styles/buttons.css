@@ -1,0 +1,19 @@
+#adaptable-message-user-button {
+    background-color: var(--color-info);
+    border-radius: var(--border-radius);
+    padding: var(--btn-padding);
+
+    transition: 
+        background-color var(--transition),
+        scale var(--transition);
+}
+
+#adaptable-message-user-button:hover {
+    background-color: var(--color-info-light);
+    transform: scale(1.1);
+}
+
+#adaptable-message-user-button:active {
+    background-color: var(--color-info);
+    transform: scale(1);
+}

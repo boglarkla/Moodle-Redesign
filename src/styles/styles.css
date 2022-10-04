@@ -1,32 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-/* Variables */
-
-:root {
-    --color-main: #191c22;
-    --color-primary: #30475E;
-    --color-secondary: #252a35;
-    --color-tertiary: #1f232b;
-    
-    --color-alert: #f05454;
-    --color-alert-light: #d46666;   
-
-    --color-info: #3b82f6;
-    --color-info-light: #4b6cb7;
-
-    --color-danger: #f59e0b;
-    --color-danger-light: #f7a549;
-
-    --color-success: #10b981;
-    --color-success-light: #059669;
-
-    --font-color-heading: #fff;   
-    --font-color-text: #DDDDDD;
-    --font-color-link: rgb(218, 241, 255);
-
-    --image-radius: 0.5rem;
-    --radius: 0.5rem;
-}
 
 #main-navbar {
     background-color: var(--color-primary)!important;
@@ -90,7 +61,7 @@ section > .content {
 
 section > .header {
     background-color: var(--color-primary)!important;
-    border-radius: var(--radius);
+    border-radius: var(--border-radius);
     border: none!important;
 }
 
@@ -99,7 +70,7 @@ section .title {
 }
 
 section {
-    border-radius: var(--radius)!important;
+    border-radius: var(--border-radius)!important;
 }
 
 /* 
@@ -128,7 +99,7 @@ section .profilepicture img {
 
 [role^="navigation"] > .breadcrumb {
     background-color: var(--color-secondary)!important;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
 
     display: flex;
     justify-content: center;
@@ -156,14 +127,14 @@ section .profilepicture img {
     background-color: var(--color-primary)!important;
     border: 0!important;    
     width: 97%;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     margin-top: 0.8rem;
 }
 
 .course-content .content {
     background-color: var(--color-secondary)!important;
 
-    border-radius: 10px;
+    border-radius: var(--border-radius);
 
     display: flex;
     flex-direction: column;
@@ -186,7 +157,7 @@ section .profilepicture img {
 }
 
 .mod-indent-outer {
-    border-radius: 10px;
+    border-radius: var(--border-radius);
 }
 
 .topics .section .activity .mod-indent-outer {
@@ -313,12 +284,12 @@ section > .content {
 
 .alert {
     background-color: var(--color-info);
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     border: 3px solid var(--color-info-light);
 }
 
 #search-1 {
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     border: 3px solid var(--color-info-light);
     background-color: var(--color-primary);
 
@@ -397,14 +368,14 @@ section > .content {
 #nav-popover-container {
     height: 100%;
     width: auto;
-    border-radius: 10px;    
+    border-radius: var(--border-radius);    
     background-color: var(--color-primary)!important;
     margin-right: 0.5rem!important;
 }
 
 #nav-popover-container > div {
     margin: 0!important;
-    border-radius: 10px;    
+    border-radius: var(--border-radius);    
     height: 100%;
     background-color: var(--color-primary);;
     transition: background-color 0.5s ease;
@@ -433,7 +404,7 @@ section > .content {
 
 .event {
     background-color: var(--color-primary);
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     padding: 0.5rem;
 }
 
@@ -461,7 +432,7 @@ section > .content {
     width: 100%;
     background-color: var(--color-primary);
     color: #DDDDDD;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     padding: 0.5rem;
 
     display: flex;
@@ -511,7 +482,7 @@ section > .content {
 }
 
 #searchform_search {
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     border: 3px solid var(--color-info-light);
     background-color: var(--color-primary);
     color: var(--font-color-heading);
@@ -531,7 +502,7 @@ section > .content {
 }
 
 .contentafterlink {
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     background-color: var(--color-primary);
     color: var(--font-color-text);
     padding: 0.5rem;
@@ -568,7 +539,7 @@ section > .content {
 */
 .section li.modtype_assign div.ad-activity-wrapper {
     background-color: var(--color-primary)!important;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     padding: 0.5rem;
     border: 0;
     box-shadow: none;
@@ -598,13 +569,13 @@ section > .content {
 */
 .availabilityinfo {
     margin: 0!important;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     padding: 0.5rem;
 }
 
 .availabilityinfo > .badge-info {
     font-weight: 600;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
 }
 
 
@@ -655,7 +626,7 @@ button, abbr {
     border: 0!important;
     margin: 0!important;
     line-height: normal!important;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     height: 100%;
     transition: background-color 0.2s ease-in-out;
     display: flex;
@@ -683,7 +654,7 @@ button, abbr {
     color: var(--font-color-text)!important;
     margin: 0!important;
     padding: 0.4rem!important;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
 }
 
 .dropdown-item:hover {
@@ -737,7 +708,7 @@ button, abbr {
 
 .highlight {
     background-color: var(--color-danger-light);
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     padding: 0.5rem;        
 }
 
@@ -746,7 +717,7 @@ button, abbr {
  */
 
 .card {
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     background-color: var(--color-primary);
     border: 0;
     box-shadow: none;
