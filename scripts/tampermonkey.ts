@@ -5,8 +5,8 @@ const tampermonkey_header = `
 // ==UserScript==
 // @name         TUD Moodle Reskin
 // @namespace    https://github.com/GrzegorzManiak/TUD-Moodle-Reskin
-// @version      1.0.0
-// @description  TUD Tallaght Moodle Reskin 
+// @version      1.1.0
+// @description  TUD Tallaght Moodle Reskin
 // @author       Grzegorz Maniak
 // @match        *://elearning-ta.tudublin.ie/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tudublin.ie
