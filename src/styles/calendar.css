@@ -1,0 +1,20 @@
+.card-header {
+    background-color: var(--color-info);
+    border-radius: var(--border-radius);
+    padding: var(--btn-padding);
+    border: none;
+    margin: 0;
+}
+
+.card-header h3 {
+    margin: 0;
+}
+
+.card-footer {
+    border: none;
+    padding: var(--btn-padding);
+}
+
+.calendar_filters span {
+    border-radius: 3px;
+}

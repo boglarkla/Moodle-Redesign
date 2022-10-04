@@ -1,19 +1,69 @@
-#adaptable-message-user-button {
-    background-color: var(--color-info)!important;
+.btn, 
+.card-link,
+.paginate_button
+{
     border-radius: var(--border-radius)!important;
     padding: var(--btn-padding)!important;
+    border: none!important;
 
     transition: 
         background-color var(--transition),
-        scale var(--transition);
+        transform var(--transition);
 }
 
-#adaptable-message-user-button:hover {
-    background-color: var(--color-info-light);
-    transform: scale(1.1);
+.btn:hover,
+.card-link:hover,
+.paginate_button:hover
+{
+    transform: scale(1.05);
+    border: none!important;
 }
 
-#adaptable-message-user-button:active {
-    background-color: var(--color-info);
-    transform: scale(1);
+.btn:focus,
+.card-link:focus,
+.paginate_button:focus
+{
+    border: none!important;
+}
+
+.btn:active,
+.card-link:active,
+.paginate_button:active
+{
+    transform: scale(0.98);
+    border: none!important;
+}
+
+
+
+/* PRIMARY */
+.btn-primary, 
+.card-link,
+.paginate_button 
+{
+    background-color: var(--color-info)!important;
+}
+
+.btn-primary:hover,
+.card-link:hover,
+.paginate_button:hover
+{
+    background-color: var(--color-info-light)!important;
+}
+
+.btn-primary:active,
+.card-link:active,
+.paginate_button:active
+{
+    background-color: var(--color-primary)!important;
+}
+
+
+
+/* 
+    Not needed buttons
+*/
+
+#editingbutton {
+    display: none!important;
 }

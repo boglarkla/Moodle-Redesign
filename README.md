@@ -21,7 +21,6 @@ Updates will be applied automatically as its just a CSS file, so you don't have 
 
 3. Go to your moodle page and enjoy the new look.
 
-
 ## Installation (Tampermonkey)
 1: Install [Tampermonkey](https://tampermonkey.net/).
 
@@ -30,6 +29,13 @@ to the latest Tampermonkey script release and click on the 'tampermonkey.user.js
 
 3: Go to your moodle page and enjoy the new look.
 
+## Automatic Updates
+
+Automatic updates are performed by TamperMonkey and the script it self (CSS Changes only), since I'm not going to get the addon certified for all browsers, I can't do automatic updates for them.
+
+- Tampermonkey: The script will check for updates every 24 hours, and if there is an update, it will automatically update.
+
+- Script: The script pings the **.ver** file on the github repo, and if there is an update, it will automatically update by downloading the new CSS file in the **releases** directory in this repo.
 
 ## Issues
 
