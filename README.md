@@ -26,7 +26,7 @@ Updates will be applied automatically as its just a CSS file, so you don't have 
 1: Install [Tampermonkey](https://tampermonkey.net/).
 
 2: Click [here](https://github.com/GrzegorzManiak/TUD-Moodle-Reskin/releases) and scroll down
-to the latest Tampermonkey script release and donwload the 'tampermonkey.user.js' file.
+to the latest Tampermonkey script release and click on the 'tampermonkey.user.js' file.
 
 3: Go to your moodle page and enjoy the new look.
 
