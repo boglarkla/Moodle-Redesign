@@ -1,1 +1,92 @@
-css-1.1.3;
+{
+    "cur": "1.1.3",
+    "content": {
+        "main": "https://raw.githubusercontent.com/GrzegorzManiak/TUD-Moodle-Reskin/main/releases/1.1.3/styles.css",
+        "root-template": {
+            "color-main": {
+                "type": "color",
+                "default": "#191c22"
+            },
+            "color-primary": {
+                "type": "color",
+                "default": "#30475E"
+            },
+            "color-secondary": {
+                "type": "color",
+                "default": "#252a35"
+            },
+            "color-tertiary": {
+                "type": "color",
+                "default": "#1f232b"
+            },
+            "color-alert": {
+                "type": "color",
+                "default": "#f05454"
+            },
+            "color-alert-light": {
+                "type": "color",
+                "default": "#d46666"
+            },
+            "color-info": {
+                "type": "color",
+                "default": "#3b82f6"
+            },
+            "color-info-light": {
+                "type": "color",
+                "default": "#4b6cb7"
+            },
+            "color-danger": {
+                "type": "color",
+                "default": "#f59e0b"
+            },
+            "color-danger-light": {
+                "type": "color",
+                "default": "#f7a549"
+            },
+            "color-success": {
+                "type": "color",
+                "default": "#10b981"
+            },
+            "color-success-light": {
+                "type": "color",
+                "default": "#059669"
+            },
+            "font-color-heading": {
+                "type": "color",
+                "default": "#fff"
+            },
+            "font-color-text": {
+                "type": "color",
+                "default": "#DDDDDD"
+            },
+            "font-color-link": {
+                "type": "color",
+                "default": "rgb(218, 241, 255)"
+            },
+            "font-size-heading": {
+                "type": "rem",
+                "default": "1.5rem"
+            },
+            "image-radius": {
+                "type": "rem",
+                "default": "0.5rem"
+            },
+            "border-radius": {
+                "type": "px",
+                "default": "10px"
+            },
+            "transition": {
+                "type": "text",
+                "default": "0.2s ease-in-out"
+            },
+            "btn-padding": {
+                "type": "rem",
+                "default": "0.5rem"
+            }
+        }
+    },
+    "ver": [
+        "1.1.3",
+        "1.1.2"
+    ]
+}
