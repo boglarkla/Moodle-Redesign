@@ -169,10 +169,7 @@ section .profilepicture img {
     margin: 0;
     display: flex;
     padding: 0.3rem;
-}
-
-.section li.modtype_forum div.ad-activity-wrapper {
-    background-color: var(--color-alert ); 
+    background-color: var(--color-alert )!important;
     border-radius: 8px;
 
     border: 0!important;
