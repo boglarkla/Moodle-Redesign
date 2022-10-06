@@ -169,12 +169,18 @@ section .profilepicture img {
     margin: 0;
     display: flex;
     padding: 0.3rem;
-    background-color: var(--color-alert )!important;
+}
+
+.quiz .ad-activity-wrapper {
     border-radius: 8px;
 
     border: 0!important;
     box-shadow: 0 0 0 0!important;    
     -webkit-box-shadow: 0!important;
+}
+
+.quiz {
+    background-color: var(--color-info)!important;
 }
 
 .aalink {
