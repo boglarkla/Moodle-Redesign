@@ -1,39 +1,37 @@
 {
-    "manifest_version": 2,
-    "name": "TUD Tallaght Reskin",
-    "version": "1.0",
-  
-    "description": "TUD Tallaght Moodle Reskin",       
-  
-    "icons": {
-      "48": "icons/icon.png"
-    },
-  
-    "content_scripts": [
-      {
-        "matches": ["*://elearning-ta.tudublin.ie/*"],
-        "js": ["dist/bundle.js"],
-        "run_at": "document_start"
-      }
-    ],
-
-    "permissions": [
-      "activeTab",
-      "storage",
-      "tabs",
-      "webRequest",
-      "webRequestBlocking",
-      "*://elearning-ta.tudublin.ie/*",
-      "*://api.github.com/*",
-      "*://github.com/*",
-      "*://raw.githubusercontent.com/*",
-      "contextMenus"
-    ],
-
-    "browser_specific_settings": {
-      "gecko": {
-        "id": "git@grzegorz.ie"
-      }
+  "manifest_version": 2,
+  "name": "Moodle Redesign",
+  "version": "1.0",
+  "description": "Moodle Redesign",
+  "icons": {
+    "48": "icons/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://elearning.uni-obuda.hu/*"
+      ],
+      "js": [
+        "dist/bundle.js"
+      ],
+      "run_at": "document_start"
     }
+  ],
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "*://elearning.uni-obuda.hu/*",
+    "*://api.github.com/*",
+    "*://github.com/*",
+    "*://raw.githubusercontent.com/*",
+    "contextMenus"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "git@grzegorz.ie"
+    }
+  }
 }
-  

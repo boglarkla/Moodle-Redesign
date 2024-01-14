@@ -3,13 +3,13 @@ const path = require('path'),
 
 const tampermonkey_header = `
 // ==UserScript==
-// @name         TUD Moodle Reskin
-// @namespace    https://github.com/GrzegorzManiak/TUD-Moodle-Reskin
-// @version      1.1.0
-// @description  TUD Tallaght Moodle Reskin
-// @author       Grzegorz Maniak
-// @match        *://elearning-ta.tudublin.ie/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=tudublin.ie
+// @name         Moodle Redesign
+// @namespace    https://github.com/boglarkla/Moodle-Redesign
+// @version      1.1.3
+// @description  Moodle Design script
+// @author       Boglarka Toth
+// @match        *://elearning.uni-obuda.hu/*
+// @icon         https://elearning.uni-obuda.hu/indexassets/icon.png
 // @run-at       document-start
 // @grant        GM_getResourceText
 // @grant        GM_addStyle
